@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "node.js and express.js",
+  "homepage": "https://github.com/Bhuvana-Chaganti/backend1#readme",
+  "bugs": {
+    "url": "https://github.com/Bhuvana-Chaganti/backend1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhuvana-Chaganti/backend1.git"
+  },
+  "license": "ISC",
+  "author": "Bhuvana",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.4",
+    "nodemon": "^3.1.14"
+  }
+}
